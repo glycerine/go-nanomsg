@@ -2,6 +2,8 @@
 
 package nanomsg
 
+// #cgo CFLAGS: -I/usr/local/include
+// #cgo LDFLAGS: -L/usr/local/lib
 // #include <nanomsg/bus.h>
 import "C"
 
